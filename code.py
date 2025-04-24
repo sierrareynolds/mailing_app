@@ -1,17 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-import sys
-import streamlit as st
-
-st.write("Python executable:", sys.executable)
-
-try:
-    import openpyxl
-    st.success("✅ openpyxl is installed!")
-except ImportError:
-    st.error("❌ openpyxl is NOT installed!")
-
 
 st.set_page_config(page_title="Mopit Mailing List Generator", layout="centered")
 st.title("📬 Mopit Mailing List Generator")
